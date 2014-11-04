@@ -54,7 +54,7 @@ public class Maze {
 	 */
 	protected void createContents() {
 		shell = new Shell();
-		shell.setSize(600, 600);
+		shell.setSize(600, 800);
 		shell.setText("SWT Application");
 		shell.setLayout(null);
 		height = 4;
@@ -73,7 +73,7 @@ public class Maze {
 				wallw[index].setBackground(SWTResourceManager.getColor(SWT.COLOR_BLACK));
 				wallw[index].setForeground(SWTResourceManager.getColor(SWT.COLOR_RED));
 				//set Locations
-				wallw[index].setBounds(150*k, 150*i, 150, 20);
+				wallw[index].setBounds(150*k, 150*i, 150, 15);
 				wallw[index].addMouseListener(new MouseAdapter() {
 					@Override
 					public void mouseDown(MouseEvent e)
