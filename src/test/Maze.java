@@ -3,6 +3,8 @@ package test;
 //import java.awt.Color;
 //import java.awt.Dimension;
 
+//Just adding some code to test committing through eclipse
+
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.swt.widgets.Label;
