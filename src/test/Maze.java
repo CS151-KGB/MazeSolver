@@ -1,17 +1,13 @@
 package test;
 
-//import java.awt.Color;
-//import java.awt.Dimension;
-
+import org.eclipse.wb.swt.widgets.Display;
+import org.eclipse.wb.swt.widgets.Label;
+import org.eclipse.wb.swt.widgets.Shell;
 //Just adding some code to test committing through eclipse
-
-import org.eclipse.swt.widgets.Display;
-import org.eclipse.swt.widgets.Shell;
-import org.eclipse.swt.widgets.Label;
-import org.eclipse.swt.SWT;
+import org.eclipse.wb.swt.events.MouseEvent;
+import org.eclipse.wb.swt.events.MouseAdapter;
+import org.eclipse.wb.swt.SWT;
 import org.eclipse.wb.swt.SWTResourceManager;
-import org.eclipse.swt.events.MouseAdapter;
-import org.eclipse.swt.events.MouseEvent;
 
 public class Maze {
 
